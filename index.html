@@ -29,6 +29,10 @@
         h1 {
             font-style: normal;
         }
+
+        a {
+            font-style: normal;
+        }
     </style>
     <script>
         tailwind.config = {
@@ -71,8 +75,7 @@
                     </ul>
                 </div>
                 <div class=" hidden flex-1 lg:block ">
-                    <i></i>
-                    <i></i>
+
                     <a class="btn bg-icon-primary rounded-3xl">Book Consult<i><i><i
                                     class="fa-solid fa-arrow-right -rotate-45 bg-black rounded-full p-1 text-white"></i></a>
                 </div>
@@ -233,13 +236,14 @@
                 <div class="card-1 col-span-4 lg:col-span-9  gap-x-2 pt-5 border-2 border-gray-300 rounded-2xl">
                     <div class=" gap-x-5  mx-auto lg:flex ">
                         <div>
-                            <img   src="./assets/img1.png" alt="">
+                            <img src="./assets/img1.png" alt="">
                         </div>
                         <div>
                             <h1 class=" pl-4 font-bold text-2xl">Commercial</h1>
-                            <p class="pl-4">A highlight in Rustic House’s portfolio is a converted barn, now a boutique retail space, blending exposed beams and stone accents for a rustic yet modern vibe.</p>
+                            <p class="pl-4">A highlight in Rustic House’s portfolio is a converted barn, now a boutique
+                                retail space, blending exposed beams and stone accents for a rustic yet modern vibe.</p>
                             <a class="btn btn-ghost text-xl"> <i><button class=" pr-3">View Details</button><i
-                                class="fa-solid fa-arrow-right -rotate-45 bg-icon-primary rounded-full p-1"></i></i></a>
+                                        class="fa-solid fa-arrow-right -rotate-45 bg-icon-primary rounded-full p-1"></i></i></a>
                         </div>
                     </div>
                 </div>
@@ -248,41 +252,44 @@
                 </div>
                 <div class="card-3 col-span-4 lg:col-span-3 p-6 border-2 border-gray-300 rounded-2xl">
                     <img class="mx-auto" src="./assets/img3.png" alt="">
-                    
+
                 </div>
                 <div class="card-4 col-span-4 lg:col-span-6 p-5 border-2 border-gray-300 rounded-2xl">
                     <div class="gap-x-4 lg:flex">
-                        <div >
+                        <div>
                             <img class=" p-1" src="./assets/img4.png" alt="">
                         </div>
                         <div class=" lg:w-9/12">
                             <h1 class="font-bold text-2xl pl-4  ">Commercial</h1>
-                            <p class="pl-4  ">A highlight in Rustic House’s portfolio is a converted barn, now a boutique retail space, blending exposed beams and stone accents for a rustic yet modern vibe.</p>
+                            <p class="pl-4  ">A highlight in Rustic House’s portfolio is a converted barn, now a
+                                boutique retail space, blending exposed beams and stone accents for a rustic yet modern
+                                vibe.</p>
                             <a class="btn btn-ghost text-xl"> <i><button class="pr-2">View Details</button><i
-                                class="fa-solid fa-arrow-right -rotate-45 bg-icon-primary rounded-full p-1"></i></i></a>
-                                
+                                        class="fa-solid fa-arrow-right -rotate-45 bg-icon-primary rounded-full p-1"></i></i></a>
+
                         </div>
-                    
+
+                    </div>
+
+
                 </div>
-                
+                <div class="border-2 border-gray-300 rounded-2xl grid gap-y-3 col-span-5 lg:col-span-3">
+                    <img class="lg:hidden mx-auto p-4" src="./assets/img3.png" alt="">
+                    <img class="p-4 mx-auto" src="./assets/img5.png" alt="">
 
-            </div>
-            <div  class="border-2 border-gray-300 rounded-2xl grid gap-y-3 col-span-5 lg:col-span-3" >
-                <img class="lg:hidden mx-auto p-4" src="./assets/img3.png" alt="">
-                <img class="p-4 mx-auto" src="./assets/img5.png" alt="">
-                
 
-            </div>
+                </div>
 
         </section>
         <section class=" mt-7 bg-1 mx-auto  bg-opacity-50 bg-contain  ">
             <style>
-            .bg-1{
-                background: url(./assets/bg.jpg);
-                
-                
-                
-            } </style>
+                .bg-1 {
+                    background: url(./assets/bg.jpg);
+
+
+
+                }
+            </style>
             <section class="max-w-6xl mx-auto">
                 <div class=" grid gap-y-5 p-5 ">
                     <div class="mx-auto">
@@ -290,24 +297,32 @@
                                     class="fa-solid fa-arrow-right p-2"></i></i>Let’s Connect</button>
                     </div>
                     <h1 class="text-3xl lg:text-5xl text-center font-extrabold">Let’s Discuss Next Project</h1>
-                    <p class="text-center ">Explore Rustic House’s latest portfolio, featuring expertly crafted properties
+                    <p class="text-center ">Explore Rustic House’s latest portfolio, featuring expertly crafted
+                        properties
                         that showcase the beauty of rustic design and countryside living.
                     </p>
-    
+
                 </div>
                 <form action="" class="mx--auto grid justify-center items-center text-center p-5">
                     <div class="grid grid-cols-4 lg:grid-cols-8  gap-y-5 gap-x-24">
-                    <div class="card-1 col-span-4 lg:col-span-4 row-span-2"><input class="bg-transparent" type="text" name="" id="" placeholder="First Name*"></div>
-                    <div class="card-2 col-span-4 lg:col-span-4 row-span-2"><input class="bg-transparent" type="text" name="" id="" placeholder="Last Name*"></div>
-                    <div class="card-3 col-span-4 lg:col-span-4 row-span-2"><input class="bg-transparent" type="text" name="" id="" placeholder="Phone Number*"></div>
-                    <div class="card-4 col-span-4 lg:col-span-4 row-span-2 bg"><input class="bg-transparent" type="text" name="" id="" placeholder="Enter Number*"></div>
-                    <div class=" bg-transparent mx-auto flex justify-center lg:ml-24 "><textarea class=" w-40 h-20 ml-12   lg:w-[40rem] lg:h-[30rem] lg:ml-24 p-2" name="" id=""  placeholder="Write Your Message Here" ></textarea></div>
+                        <div class="card-1 col-span-4 lg:col-span-4 row-span-2"><input class="bg-transparent"
+                                type="text" name="" id="" placeholder="First Name*"></div>
+                        <div class="card-2 col-span-4 lg:col-span-4 row-span-2"><input class="bg-transparent"
+                                type="text" name="" id="" placeholder="Last Name*"></div>
+                        <div class="card-3 col-span-4 lg:col-span-4 row-span-2"><input class="bg-transparent"
+                                type="text" name="" id="" placeholder="Phone Number*"></div>
+                        <div class="card-4 col-span-4 lg:col-span-4 row-span-2 bg"><input class="bg-transparent"
+                                type="text" name="" id="" placeholder="Enter Number*"></div>
+                        <div class=" bg-transparent mx-auto flex justify-center lg:ml-24 "><textarea
+                                class=" w-40 h-20 ml-12   lg:w-[40rem] lg:h-[30rem] lg:ml-24 p-2" name="" id=""
+                                placeholder="Write Your Message Here"></textarea></div>
                     </div>
-                    <button class=" mx-auto mt-6" type="submit"><a class=" lg:px-80 lg:py-2 btn bg-icon-primary rounded-3xl">Send Mail<i><i class="pl-2"><i
-                                    class="fa-solid fa-arrow-right -rotate-45  bg-black rounded-full p-2 text-white"></i></a></button>
-                   
+                    <button class=" mx-auto mt-6" type="submit"><a
+                            class=" lg:px-80 lg:py-2 btn bg-icon-primary rounded-3xl">Send Mail<i><i class="pl-2"><i
+                                        class="fa-solid fa-arrow-right -rotate-45  bg-black rounded-full p-2 text-white"></i></a></button>
+
                 </form>
-                
+
             </section>
 
         </section>
@@ -316,56 +331,45 @@
                 <div class=" mx-auto grid justify-center p-5 gap-y-4 lg:flex">
                     <div class="stat">
                         <div class="stat-figure text-primary">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            class="inline-block h-8 w-8 stroke-current">
-                            <path
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-width="2"
-                              d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
-                          </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                class="inline-block h-8 w-8 stroke-current">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z">
+                                </path>
+                            </svg>
                         </div>
                         <div class="stat-title">Total Customer</div>
                         <div class="stat-value text-primary">25.6K</div>
                         <div class="stat-desc">21% more than last month</div>
-                      </div>
-                    
-                      <div class="stat">
+                    </div>
+
+                    <div class="stat">
                         <div class="stat-figure text-secondary">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            class="inline-block h-8 w-8 stroke-current">
-                            <path
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-width="2"
-                              d="M13 10V3L4 14h7v7l9-11h-7z"></path>
-                          </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                class="inline-block h-8 w-8 stroke-current">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                            </svg>
                         </div>
                         <div class="stat-title">Projects Hand-overed</div>
                         <div class="stat-value text-secondary">2.6M</div>
                         <div class="stat-desc">21% more than last month</div>
-                      </div>
-                    
-                      <div class="stat">
+                    </div>
+
+                    <div class="stat">
                         <div class="stat-figure text-secondary">
-                          <div class="avatar online">
-                            <div class="w-16 rounded-full">
-                              <img src="./assets/article1.png" />
+                            <div class="avatar online">
+                                <div class="w-16 rounded-full">
+                                    <img src="./assets/article1.png" />
+                                </div>
                             </div>
-                          </div>
                         </div>
                         <div class="stat-value">86%</div>
                         <div class="stat-title">Customer Satisfaction</div>
                         <div class="stat-desc text-secondary">satisfaction rate on the increase</div>
-                      </div>
                     </div>
                 </div>
+            </div>
         </section>
 
 
@@ -373,7 +377,29 @@
 
 
     </main>
-    <footer>
+    <footer class="bg-black">
+        <section class=" max-w-6xl mx-auto mt-24 grid gap-y-12 lg:p-5 p-8">
+            <div class="grid justify-center "><a class="btn btn-ghost text-xl text-white "> <i><i
+                            class="fa-solid fa-arrow-right -rotate-45 bg-icon-primary rounded-full p-1 text-black "></i></i>Rinterio</a>
+            </div>
+            <p class="text-gray-400 text-center ">© 2024 Rustic House | Specializing in rustic real estate with a
+                commitment to quality and charm. Connect with us to find your perfect countryside property.</p>
+
+            <div class=" grid justify-center">
+                <ul tabindex="0" class=" lg:flex grid mx-auto justify-center text-center gap-y-4  gap-x-12">
+                    <li><a class=" text-gray-300">Home</a></li>
+                    <li><a class="text-gray-300">Services</a></li>
+                    <li><a class="text-gray-300">Portfolio</a></li>
+                    <li><a class="text-gray-300">Blogs</a></li>
+                    <li><a class="text-gray-300">Contact us</a></li>
+                </ul>
+            </div>
+
+            <div class="grid justify-center"><a class="btn bg-icon-primary rounded-3xl">Book Consult<i><i><i
+                                class="fa-solid fa-arrow-right -rotate-45 bg-black rounded-full p-1 text-white"></i></a>
+            </div>
+        </section>
+
 
     </footer>
 
